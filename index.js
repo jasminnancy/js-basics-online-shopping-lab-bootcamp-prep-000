@@ -38,7 +38,7 @@ function viewCart() {
   }
 
 function total() {
-  var sum = cart.reduce((a, b) => a + b)
+  var sum = 
   return sum
 }
 

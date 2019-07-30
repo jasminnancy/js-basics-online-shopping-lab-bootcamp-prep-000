@@ -40,7 +40,7 @@ function viewCart() {
 function total() {
   var cartTotal = 0
   for (var i = 0; i < cart.length; i++){
-    cartTotal += cart[i].itemPrice //+= aka 2 += 3 = 5
+    cartTotal += cart[i].itemPrice //+= aka 0 += 3 = 3
   }
   return cartTotal
 }

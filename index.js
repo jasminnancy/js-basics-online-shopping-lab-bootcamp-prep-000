@@ -38,8 +38,9 @@ function viewCart() {
   }
 
 function total() {
-  var total = 
-  return sum
+  var cartTotal = 0
+  
+  return cartTotal
 }
 
 function removeFromCart(item) {

@@ -61,5 +61,6 @@ function placeOrder(cardNumber) {
   }
   else {
   orderComplete = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
+  
   }
 }

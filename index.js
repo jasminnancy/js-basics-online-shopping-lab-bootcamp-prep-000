@@ -27,7 +27,7 @@ function viewCart() {
     else {
       var sentence = "In your cart, you have "
       for (var i = 0; i < cart.length; i++){
-        if(i !== 0 && i === cart.length - 1){ 
+        if (i !== 0 && i === cart.length - 1){ 
           // i is NOT equal to 0 AND i IS equal to the second to last cart length (this makes us loop 1+ times)
           sentence += "and "
         }
@@ -47,11 +47,11 @@ function total() {
 
 function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++){
-    if(item === cart['itemName']){
+    if (item === cart['itemName']){
       cart.splice(i, 1)
       return cart
     }
-    else{
+    else {
       return "That item is not in your cart."
     }
   }
